@@ -71,7 +71,13 @@ export function ProductItem({ product }: { product: ProductItemProps }) {
   );
 
   return (
-    <Card>
+    <Card sx={{
+      transform: "scale(0.95)",
+      transition: "transform 0.3s ease-in-out",
+      "&:hover": {
+        transform: "scale(1)",
+      },
+    }}>
       <Box sx={{ pt: '100%', position: 'relative' }}>
         {product.status && renderStatus}
 
