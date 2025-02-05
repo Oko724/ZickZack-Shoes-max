@@ -6,6 +6,7 @@ import { DashboardContent } from 'src/layouts/dashboard';
 import { ProductsView } from 'src/sections/product/view';
 import { UserView } from 'src/sections/user/view';
 
+import { HeaderCeo } from 'src/components/HeaderCeo';
 import { AnalyticsNews } from '../analytics-news';
 import { AnalyticsTasks } from '../analytics-tasks';
 import { AnalyticsCurrentVisits } from '../analytics-current-visits';
@@ -21,6 +22,7 @@ import { AnalyticsConversionRates } from '../analytics-conversion-rates';
 export function OverviewAnalyticsView() {
   return (
     <>
+    <HeaderCeo />
       <ProductsView />
       <DashboardContent maxWidth="xl">
         <Typography variant="h4" sx={{ mb: { xs: 3, md: 5 } }}>

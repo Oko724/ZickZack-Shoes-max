@@ -48,28 +48,30 @@ export function NavDesktop({
   const theme = useTheme();
 
   return (
-    <Box
-      sx={{
-        pt: 2.5,
-        px: 2.5,
-        top: 0,
-        left: 0,
-        height: 1,
-        display: 'none',
-        position: 'fixed',
-        flexDirection: 'column',
-        bgcolor: 'var(--layout-nav-bg)',
-        zIndex: 'var(--layout-nav-zIndex)',
-        width: 'var(--layout-nav-vertical-width)',
-        borderRight: `1px solid var(--layout-nav-border-color, ${varAlpha(theme.vars.palette.grey['500Channel'], 0.12)})`,
-        [theme.breakpoints.up(layoutQuery)]: {
-          display: 'flex',
-        },
-        ...sx,
-      }}
-    >
-      <NavContent data={data} slots={slots} workspaces={workspaces} />
-    </Box>
+    <>
+    </>
+    // <Box
+    //   sx={{
+    //     pt: 2.5,
+    //     px: 2.5,
+    //     top: 0,
+    //     left: 0,
+    //     height: 1,
+    //     display: 'none',
+    //     position: 'fixed',
+    //     flexDirection: 'column',
+    //     bgcolor: 'var(--layout-nav-bg)',
+    //     zIndex: 'var(--layout-nav-zIndex)',
+    //     width: 'var(--layout-nav-vertical-width)',
+    //     borderRight: `1px solid var(--layout-nav-border-color, ${varAlpha(theme.vars.palette.grey['500Channel'], 0.12)})`,
+    //     [theme.breakpoints.up(layoutQuery)]: {
+    //       display: 'flex',
+    //     },
+    //     ...sx,
+    //   }}
+    // >
+    //   <NavContent data={data} slots={slots} workspaces={workspaces} />
+    // </Box>
   );
 }
 
@@ -123,10 +125,10 @@ export function NavContent({ data, slots, workspaces, sx }: NavContentProps) {
 
       {slots?.topArea}
 
-      <WorkspacesPopover data={workspaces} sx={{ my: 2 }} />
+      {/* <WorkspacesPopover data={workspaces} sx={{ my: 2 }} /> */}
 
       <Scrollbar fillContent>
-        <Box component="nav" display="flex" flex="1 1 auto" flexDirection="column" sx={sx}>
+        {/* <Box component="nav" display="flex" flex="1 1 auto" flexDirection="column" sx={sx}>
           <Box component="ul" gap={0.5} display="flex" flexDirection="column">
             {data.map((item) => {
               const isActived = item.path === pathname;
@@ -171,12 +173,12 @@ export function NavContent({ data, slots, workspaces, sx }: NavContentProps) {
               );
             })}
           </Box>
-        </Box>
+        </Box> */}
       </Scrollbar>
 
-      {slots?.bottomArea}
+      {/* {slots?.bottomArea} */}
 
-      <NavUpgrade />
+      {/* <NavUpgrade /> */}
     </>
   );
 }

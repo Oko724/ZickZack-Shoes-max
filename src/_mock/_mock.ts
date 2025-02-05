@@ -29,33 +29,34 @@ export const _times = (index: number) =>
     '08/09/2024',
   ][index];
 
-export const _fullName = (index: number) =>
-  [
-    'Billy Stoltenberg',
-    'Eloise Ebert',
-    'Teresa Luettgen',
-    'Salvador Mayert',
-    'Dr. Guadalupe Rath',
-    'Kelvin Pouros',
-    'Thelma Langworth',
-    'Kristen Wunsch',
-    'Steve Welch',
-    'Brian Jacobs',
-    'Lillie Schultz',
-    'Mr. Conrad Spinka',
-    'Charlene Krajcik',
-    'Kerry Kuhlman',
-    'Betty Hammes',
-    'Tony Paucek PhD',
-    'Sherri Davis',
-    'Angel Rolfson-Kulas',
-    'Dr. Lee Doyle-Grant',
-    'Cheryl Romaguera',
-    'Billy Braun',
-    'Adam Trantow',
-    'Brandon Von',
-    'Willis Ankunding',
-  ][index];
+  export const _fullName = (index: number) =>
+    [
+      'กิตติพงษ์ สุวรรณศิลป์',
+      'ปิยวรรณ ทองดี',
+      'ณัฐวุฒิ แซ่ลี้',
+      'ศิรินภา วงศ์สุวรรณ',
+      'ดร. วัฒนา พงศ์ไพบูลย์',
+      'สุรชัย รัตนบุรี',
+      'อรอนงค์ ศรีสวัสดิ์',
+      'กนกวรรณ นิลพัฒน์',
+      'สมชาย อินทรชัย',
+      'วรัญญา แก้วกาญจน์',
+      'บุญญาพร สายสมร',
+      'นาย สมบัติ ศิริวัฒน์',
+      'จิราพร พันธ์ทอง',
+      'เกรียงศักดิ์ นาคประเสริฐ',
+      'ปัทมาวดี สินทรัพย์',
+      'ดร. ปริญญา ตั้งมั่น',
+      'อัมรินทร์ สุขสำราญ',
+      'นฤมล วงศ์กาญจนา',
+      'ดร. วรพงษ์ จันทร์ศิริ',
+      'นงนุช อภิรัตน์',
+      'ธนากร วัฒนโชติ',
+      'อภิวัฒน์ กาญจนพงษ์',
+      'วศิน ทองประเสริฐ',
+      'ภานุพงศ์ มานะกิจ',
+    ][index];
+  
 
 export const _price = (index: number) =>
   [
@@ -63,33 +64,34 @@ export const _price = (index: number) =>
     25.93, 70.39, 23.11, 67.23, 14.31, 31.5, 26.72, 44.8, 37.87, 75.53,
   ][index];
 
-export const _company = (index: number) =>
-  [
-    'Medhurst, Moore and Franey',
-    'Hahn, Homenick and Lind',
-    'Larkin LLC',
-    'Stamm, Larson and Mertz',
-    'Spencer, Raynor and Langosh',
-    'Lehner - Feeney',
-    'Leuschke, Harris and Kuhlman',
-    'Gutmann - Kassulke',
-    'Turcotte - Runolfsson',
-    'Howe - Anderson',
-    'Sipes - Yost',
-    'Johns - Aufderhar',
-    'Schmidt LLC',
-    'Smitham - Gerlach',
-    'Waelchi - VonRueden',
-    'Padberg - Macejkovic',
-    'Lemke - Ferry',
-    'Koch and Sons',
-    'Klein - Rolfson',
-    'Weimann LLC',
-    'White, Cassin and Goldner',
-    'Mohr, Langworth and Hills',
-    'Mitchell, Volkman and Prosacco',
-    'Streich Group',
-  ][index];
+  export const _company = (index: number) =>
+    [
+      'ไลฟ์สตาร์ อินเตอร์เนชั่นแนล',
+      'เอเชีย จำกัด',
+      'ภัทราธร จำกัด',
+      'กรุงไทย บิสซิเนส โซลูชั่นส์',
+      'คิงส์แลนด์ คอร์ปอเรชั่น',
+      'พันธกิจ กรุ๊ป',
+      'โกลเด้นฟิลด์ อินเตอร์เนชั่นแนล',
+      'ไทยสตาร์ เทคโนโลยี',
+      'เอ็นเตอร์ไพรส์โกลบอล',
+      'วิชั่น จำกัด',
+      'ดิจิตอลกรุ๊ป จำกัด',
+      'โคซี่ กรุ๊ป',
+      'เวิลด์คลาส โฮลดิ้งส์',
+      'แอทแลนติก คอร์ปอเรชั่น',
+      'เอกสิทธิ์ โปรดักส์',
+      'โฟร์เทค จำกัด',
+      'กรุงเทพพาณิชย์',
+      'สยามดิจิทัล',
+      'ซีเกท อินดัสตรีส์',
+      'บีพีซอฟต์แวร์',
+      'ออลเทค อินโนเวชั่น',
+      'เอ็กซ์ไดม์ โซลูชั่นส์',
+      'เซ็นทรัลคอมพิวติ้ง',
+      'แพนดา คอร์ปอเรชั่น',
+    ][index];
+  
 
 export const _boolean = (index: number) =>
   [
