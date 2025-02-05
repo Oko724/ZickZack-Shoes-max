@@ -10,19 +10,19 @@ import 'swiper/css/pagination';
 
 const ceos = [
   {
-    src: 'public/assets/images/zack-sit.jpg',
+    src: '/assets/images/zack-sit.jpg',
     name: 'ZickZack',
     title: 'The Visionary Leader',
     description: 'Innovation and leadership in every step.',
   },
   {
-    src: 'public/assets/images/zack-stand.jpg',
+    src: '/assets/images/zack-stand.jpg',
     name: 'Zackie',
     title: 'The Mastermind CEO',
     description: 'Strategic thinking, exceptional execution.',
   },
   {
-    src: 'public/assets/images/zack-camera.jpg',
+    src: '/assets/images/zack-camera.jpg',
     name: 'CheckZack',
     title: 'The Game Changer',
     description: 'Breaking limits and setting new standards.',
